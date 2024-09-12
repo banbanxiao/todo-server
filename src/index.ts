@@ -2,7 +2,6 @@ import express from "express";
 import type { Express, Request, Response } from "express";
 import { PrismaClient } from "@prisma/client";
 import cors from "cors";
-import { createPrivateKey } from "crypto";
 
 const app: Express = express();
 const PORT = 8080;
